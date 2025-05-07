@@ -1,0 +1,5 @@
+Aula de LPM
+
+Atributos static ->Serão compartilhados por todas as instâncias, não fazendo parte de
+uma instância específica. Como uma variável static se refere à classe, não será necessário
+especificar o atrobuto com o prefixo this.

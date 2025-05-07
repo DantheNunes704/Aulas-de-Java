@@ -1,0 +1,15 @@
+Aula de Java - Construtor
+
+- Quando criamos uma instância de uma classe, chamamos uma função chamada "Construtor".
+- Quando nenhum construtor é definido e criamos uma instância, o construtor usado é o construtor Default.
+- Os construtores são funções que têm o mesmo nome da classe.
+
+Caneta caneta1 = new Caneta();
+
+-> Nós podemos usar os construtores para substituir o uso das funções set para atribuir os atributos daquela instância. Com isso, apenas o get é necessário para saber tal valor.
+
+-> Um construtor poderá ser usado apenas uma vez para um objeto (instância).
+
+Sobrecarga (conceito)
+
+Permite que várias funções construtor possam existir em uma mesma classe, porém com parâmetros diferentes em quantidade e tipos.

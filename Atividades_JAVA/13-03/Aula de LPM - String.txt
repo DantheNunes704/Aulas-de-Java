@@ -1,0 +1,46 @@
+Aula de LPM -> String
+
+String é uma classe, portanto tem seus métodos, construtores e atém sobrecargas.
+
+<Importante>
+
+Sempre ao comparar duas Strings deve-se usar o método equals(Object anObject)
+
+ex: nome.equals(Object anObject) -> Essa função compara a String nome com a String especificada no parâmetro
+
+Métodos estáticos são chamados a partir *DA CLASSE* e não do objeto
+
+
+
+import java.util.Scanner;
+
+
+public class Main {
+    public static void main(String[] args) {
+        //TIP Press <shortcut actionId="ShowIntentionActions"/> with your caret at the highlighted text
+        // to see how IntelliJ IDEA suggests fixing it.
+
+        Scanner scan = new Scanner(System.in);
+        String palavra;
+        palavra = scan.nextLine();
+
+        String Palavra_grande = palavra.toUpperCase();
+        System.out.println("1. " + Palavra_grande);
+
+        System.out.println("2. " + palavra.charAt(1));
+
+        System.out.println("3. " + palavra.endsWith("x"));
+
+        System.out.println("4. " + palavra.toLowerCase());
+
+        System.out.println("5. " + palavra.startsWith("ma"));
+
+        String compara = scan.nextLine();
+        System.out.println("6. " + palavra.equals(compara));
+
+        System.out.println("7. " + palavra.length());
+
+    }
+}
+
+
